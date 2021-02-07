@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC3A09C425D01DFD007D8176 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A09C325D01DFD007D8176 /* AppDelegate.swift */; };
+		EC3A09C625D01DFD007D8176 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A09C525D01DFD007D8176 /* SceneDelegate.swift */; };
+		EC3A09C825D01DFD007D8176 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A09C725D01DFD007D8176 /* ViewController.swift */; };
+		EC3A09CB25D01DFD007D8176 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3A09C925D01DFD007D8176 /* Main.storyboard */; };
+		EC3A09CD25D01E00007D8176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3A09CC25D01E00007D8176 /* Assets.xcassets */; };
+		EC3A09D025D01E00007D8176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3A09CE25D01E00007D8176 /* LaunchScreen.storyboard */; };
+		EC3A09DB25D01E00007D8176 /* WinWinCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A09DA25D01E00007D8176 /* WinWinCalculatorTests.swift */; };
+		EC3A09E625D01E00007D8176 /* WinWinCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A09E525D01E00007D8176 /* WinWinCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC3A09D725D01E00007D8176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC3A09B825D01DFD007D8176 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3A09BF25D01DFD007D8176;
+			remoteInfo = WinWinCalculator;
+		};
+		EC3A09E225D01E00007D8176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC3A09B825D01DFD007D8176 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3A09BF25D01DFD007D8176;
+			remoteInfo = WinWinCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC3A09C025D01DFD007D8176 /* WinWinCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinWinCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3A09C325D01DFD007D8176 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC3A09C525D01DFD007D8176 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC3A09C725D01DFD007D8176 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC3A09CA25D01DFD007D8176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC3A09CC25D01E00007D8176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC3A09CF25D01E00007D8176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC3A09D125D01E00007D8176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3A09D625D01E00007D8176 /* WinWinCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinWinCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3A09DA25D01E00007D8176 /* WinWinCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinWinCalculatorTests.swift; sourceTree = "<group>"; };
+		EC3A09DC25D01E00007D8176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3A09E125D01E00007D8176 /* WinWinCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinWinCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3A09E525D01E00007D8176 /* WinWinCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinWinCalculatorUITests.swift; sourceTree = "<group>"; };
+		EC3A09E725D01E00007D8176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC3A09BD25D01DFD007D8176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3A09D325D01E00007D8176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3A09DE25D01E00007D8176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC3A09B725D01DFD007D8176 = {
+			isa = PBXGroup;
+			children = (
+				EC3A09C225D01DFD007D8176 /* WinWinCalculator */,
+				EC3A09D925D01E00007D8176 /* WinWinCalculatorTests */,
+				EC3A09E425D01E00007D8176 /* WinWinCalculatorUITests */,
+				EC3A09C125D01DFD007D8176 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC3A09C125D01DFD007D8176 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC3A09C025D01DFD007D8176 /* WinWinCalculator.app */,
+				EC3A09D625D01E00007D8176 /* WinWinCalculatorTests.xctest */,
+				EC3A09E125D01E00007D8176 /* WinWinCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC3A09C225D01DFD007D8176 /* WinWinCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				EC3A09C325D01DFD007D8176 /* AppDelegate.swift */,
+				EC3A09C525D01DFD007D8176 /* SceneDelegate.swift */,
+				EC3A09C725D01DFD007D8176 /* ViewController.swift */,
+				EC3A09C925D01DFD007D8176 /* Main.storyboard */,
+				EC3A09CC25D01E00007D8176 /* Assets.xcassets */,
+				EC3A09CE25D01E00007D8176 /* LaunchScreen.storyboard */,
+				EC3A09D125D01E00007D8176 /* Info.plist */,
+			);
+			path = WinWinCalculator;
+			sourceTree = "<group>";
+		};
+		EC3A09D925D01E00007D8176 /* WinWinCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC3A09DA25D01E00007D8176 /* WinWinCalculatorTests.swift */,
+				EC3A09DC25D01E00007D8176 /* Info.plist */,
+			);
+			path = WinWinCalculatorTests;
+			sourceTree = "<group>";
+		};
+		EC3A09E425D01E00007D8176 /* WinWinCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC3A09E525D01E00007D8176 /* WinWinCalculatorUITests.swift */,
+				EC3A09E725D01E00007D8176 /* Info.plist */,
+			);
+			path = WinWinCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC3A09BF25D01DFD007D8176 /* WinWinCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3A09EA25D01E00007D8176 /* Build configuration list for PBXNativeTarget "WinWinCalculator" */;
+			buildPhases = (
+				EC3A09BC25D01DFD007D8176 /* Sources */,
+				EC3A09BD25D01DFD007D8176 /* Frameworks */,
+				EC3A09BE25D01DFD007D8176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinWinCalculator;
+			productName = WinWinCalculator;
+			productReference = EC3A09C025D01DFD007D8176 /* WinWinCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC3A09D525D01E00007D8176 /* WinWinCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3A09ED25D01E00007D8176 /* Build configuration list for PBXNativeTarget "WinWinCalculatorTests" */;
+			buildPhases = (
+				EC3A09D225D01E00007D8176 /* Sources */,
+				EC3A09D325D01E00007D8176 /* Frameworks */,
+				EC3A09D425D01E00007D8176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3A09D825D01E00007D8176 /* PBXTargetDependency */,
+			);
+			name = WinWinCalculatorTests;
+			productName = WinWinCalculatorTests;
+			productReference = EC3A09D625D01E00007D8176 /* WinWinCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC3A09E025D01E00007D8176 /* WinWinCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3A09F025D01E00007D8176 /* Build configuration list for PBXNativeTarget "WinWinCalculatorUITests" */;
+			buildPhases = (
+				EC3A09DD25D01E00007D8176 /* Sources */,
+				EC3A09DE25D01E00007D8176 /* Frameworks */,
+				EC3A09DF25D01E00007D8176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3A09E325D01E00007D8176 /* PBXTargetDependency */,
+			);
+			name = WinWinCalculatorUITests;
+			productName = WinWinCalculatorUITests;
+			productReference = EC3A09E125D01E00007D8176 /* WinWinCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC3A09B825D01DFD007D8176 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					EC3A09BF25D01DFD007D8176 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					EC3A09D525D01E00007D8176 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = EC3A09BF25D01DFD007D8176;
+					};
+					EC3A09E025D01E00007D8176 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = EC3A09BF25D01DFD007D8176;
+					};
+				};
+			};
+			buildConfigurationList = EC3A09BB25D01DFD007D8176 /* Build configuration list for PBXProject "WinWinCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC3A09B725D01DFD007D8176;
+			productRefGroup = EC3A09C125D01DFD007D8176 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC3A09BF25D01DFD007D8176 /* WinWinCalculator */,
+				EC3A09D525D01E00007D8176 /* WinWinCalculatorTests */,
+				EC3A09E025D01E00007D8176 /* WinWinCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC3A09BE25D01DFD007D8176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3A09D025D01E00007D8176 /* LaunchScreen.storyboard in Resources */,
+				EC3A09CD25D01E00007D8176 /* Assets.xcassets in Resources */,
+				EC3A09CB25D01DFD007D8176 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3A09D425D01E00007D8176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3A09DF25D01E00007D8176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC3A09BC25D01DFD007D8176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3A09C825D01DFD007D8176 /* ViewController.swift in Sources */,
+				EC3A09C425D01DFD007D8176 /* AppDelegate.swift in Sources */,
+				EC3A09C625D01DFD007D8176 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3A09D225D01E00007D8176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3A09DB25D01E00007D8176 /* WinWinCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3A09DD25D01E00007D8176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3A09E625D01E00007D8176 /* WinWinCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC3A09D825D01E00007D8176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3A09BF25D01DFD007D8176 /* WinWinCalculator */;
+			targetProxy = EC3A09D725D01E00007D8176 /* PBXContainerItemProxy */;
+		};
+		EC3A09E325D01E00007D8176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3A09BF25D01DFD007D8176 /* WinWinCalculator */;
+			targetProxy = EC3A09E225D01E00007D8176 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC3A09C925D01DFD007D8176 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3A09CA25D01DFD007D8176 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC3A09CE25D01E00007D8176 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3A09CF25D01E00007D8176 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC3A09E825D01E00007D8176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC3A09E925D01E00007D8176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC3A09EB25D01E00007D8176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W9HVBLG65;
+				INFOPLIST_FILE = WinWinCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = supun.WinWinCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC3A09EC25D01E00007D8176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W9HVBLG65;
+				INFOPLIST_FILE = WinWinCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = supun.WinWinCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC3A09EE25D01E00007D8176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W9HVBLG65;
+				INFOPLIST_FILE = WinWinCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = supun.WinWinCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinWinCalculator.app/WinWinCalculator";
+			};
+			name = Debug;
+		};
+		EC3A09EF25D01E00007D8176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W9HVBLG65;
+				INFOPLIST_FILE = WinWinCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = supun.WinWinCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinWinCalculator.app/WinWinCalculator";
+			};
+			name = Release;
+		};
+		EC3A09F125D01E00007D8176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W9HVBLG65;
+				INFOPLIST_FILE = WinWinCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = supun.WinWinCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WinWinCalculator;
+			};
+			name = Debug;
+		};
+		EC3A09F225D01E00007D8176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W9HVBLG65;
+				INFOPLIST_FILE = WinWinCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = supun.WinWinCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WinWinCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC3A09BB25D01DFD007D8176 /* Build configuration list for PBXProject "WinWinCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3A09E825D01E00007D8176 /* Debug */,
+				EC3A09E925D01E00007D8176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3A09EA25D01E00007D8176 /* Build configuration list for PBXNativeTarget "WinWinCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3A09EB25D01E00007D8176 /* Debug */,
+				EC3A09EC25D01E00007D8176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3A09ED25D01E00007D8176 /* Build configuration list for PBXNativeTarget "WinWinCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3A09EE25D01E00007D8176 /* Debug */,
+				EC3A09EF25D01E00007D8176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3A09F025D01E00007D8176 /* Build configuration list for PBXNativeTarget "WinWinCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3A09F125D01E00007D8176 /* Debug */,
+				EC3A09F225D01E00007D8176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC3A09B825D01DFD007D8176 /* Project object */;
+}
